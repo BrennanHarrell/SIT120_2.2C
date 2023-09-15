@@ -1,0 +1,154 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: auto;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+
+#nav {
+    background: #000000;
+    color: white;
+    list-style-type: none;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#nav a:hover {
+    color: #504f4f;
+}
+
+#nav a.router-link-exact-active {
+    color: white;
+    background: #268572;
+}
+
+.header {
+    text-align:center;
+    position: relative;
+    top: -22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: #424040;
+    
+  }
+
+IMG.displayed {
+    float: left;
+    width: 50x;
+    height: 40px
+}
+
+#content {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: auto;
+    padding-right: auto;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8;
+}
+
+.table {
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: -100px;
+}
+
+.form {
+    text-align:center; 
+    padding-left: auto;
+    padding-right: auto;
+    position: relative;
+    bottom: -200px;
+}
+
+.btn { 
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 30px 100px;
+    text-decoration: 75px solid;
+}
+
+.btn:hover {
+    background: #504f4f;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+    IMG.displayed {
+        width: 0px;
+        height: 0px;
+    }
+  
+    .form {
+        padding: 0px 0px 100px;
+    }    
+}
+
+@media only screen and (min-width: 768px) {
+      IMG.displayed {
+        width: 0px;
+        height: 0px;
+    }
+
+    .form {
+        padding: 0px 0px 100px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    IMG.displayed {
+      width: 116px;
+      height: 40px;
+  }
+
+  .form {
+      padding: 0px 0px 100px;
+  }
+}
+
