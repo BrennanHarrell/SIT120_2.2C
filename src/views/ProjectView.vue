@@ -1,7 +1,8 @@
 <template>
   <div class="container">
-  <h1 class="header">Todo App</h1>
+  <header class="header">My Projects</header>
   <div>
+    <h2>Todo App</h2>
     <input class="newTask" type="text" v-model="todo" placeholder="Create New Todo"/>
     <button @click="addTask(todo.id)" class="addTask">Add Task</button>
   </div>

@@ -2,7 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProjectView from '../views/ProjectView.vue'
+import ContactView from '../views/ContactView.vue'
 import NoPage from '../views/NoPage.vue'
+
+
 const routes = [
   {
     path: '/',
@@ -21,10 +24,17 @@ const routes = [
   },
 
   {
+    path: '/contact',
+    name: 'contact',
+    component: ContactView
+  },
+
+  {
     path: '/:catchAll(.*)',
     name: 'NoPage',
     compenent: NoPage
   }
+
 ]
 
 const router = createRouter({

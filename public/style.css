@@ -16,11 +16,6 @@ body {
     padding: auto;
 }
 
-table, th, td {
-    border:1px solid black;
-  }
-
-
 #nav {
     background: #000000;
     color: white;
@@ -53,7 +48,7 @@ table, th, td {
 .header {
     text-align:center;
     position: relative;
-    top: -22px;
+    font-size: x-large;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: auto;
@@ -65,8 +60,6 @@ table, th, td {
 
 IMG.displayed {
     float: left;
-    width: 50x;
-    height: 40px
 }
 
 #content {
@@ -80,33 +73,12 @@ IMG.displayed {
     border-radius: 8;
 }
 
-.table {
-    width:auto;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    bottom: -100px;
-}
-
 .form {
     text-align:center; 
     padding-left: auto;
     padding-right: auto;
     position: relative;
-    bottom: -200px;
-}
-
-.btn { 
-    display: inline-block;
-    background: black;
-    color: white;
-    padding: 30px 100px;
-    text-decoration: 75px solid;
-}
-
-.btn:hover {
-    background: #504f4f;
-    color: white;
+    bottom: -50px;
 }
 
 footer {
@@ -118,6 +90,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
 @media only screen and (min-width: 480px) {
     IMG.displayed {
